@@ -1,0 +1,128 @@
+sillybot-parser
+(use sillybot.web)
+(use 'sillybot.web)
+quit
+(use 'sillybot.web)
+(sillybot-parser {:text "Toto"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Toto"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Toto"})
+(*e backtrace)
+(sillybot-parser {:text "Toto"})
+(sillybot-parser {:text "Popo"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Popo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser {:text "Popo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser {:text "Popo"})
+(nil)
+quit
+(use 'sillybot.web)
+(sillybot-parser {:text "Popo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser {:text "Popo"})
+(empty? [])
+(empty? nil)
+(or (= "Toto" "Toto") (empty? []))
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Popo"})
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+(= "Toto" "Toto"à
+(= "Toto" "Toto")
+(def a {:condition "Toto"})
+(:condition a)
+(type (:condition a))
+"Toto"
+(= "Toto" (:condition a))
+(sillybot-match-pool-item? "Toto" (:condition a))
+(sillybot-match-pool-item? "Toto" a)
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+(sillybot-parser sillybot-pool {:text "Tolo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+(sillybot-parser sillybot-pool {:text "Yolo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yolo"})
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(type #"")
+(= (type #"") java.util.regex.Pattern)
+java.lang.string
+java.lang.String
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Toto"})
+(sillybot-parser sillybot-pool {:text "Yolo popo"})
+(sillybot-parser sillybot-pool {:text "Yol"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yol"})
+(sillybot-parser sillybot-pool {:text "Yolo"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yolo"})
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yolo"})
+reload
+(reload)
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yolo"})
+(def a 're-find)
+(a #"Yolo" "Yolo")
+(a #"Yolo" "Toto")
+(re-find #"Yolo" "Toto")
+(a #"Yolo" "Toto")
+(def a re-find)
+(a #"Yolo" "Toto")
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Yolo"})
+(sillybot-parser sillybot-pool {:text "Yolo, sillybot"})
+(sillybot-parser sillybot-pool {:text "Toto"})
+(sillybot-parser sillybot-pool {:text "Titi"})
+quit
+(use 'sillybot.web)
+(sillybot-parser sillybot-pool {:text "Should we go away ?"})
+(sillybot-parser sillybot-pool {:text "Should I go away ?"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Should I go away ?"})
+(type (fn))
+(type (fn [] "toto"))
+(rand-nth ["toto" "bolo"])
+(use 'sillybot.web)
+(sillybot-parser {:text "Should I go away ?"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Should I go away ?"})
+(use 'sillybot.web)
+(sillybot-parser {:text "Should I go away ?"})
+(sillybot-parser {:text "Toto"})
